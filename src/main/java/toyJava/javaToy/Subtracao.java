@@ -25,7 +25,11 @@ public class Subtracao {
 		this.numeroUm = novoNumero;
 	}
 
+
+
 	public void setNumeroDois(int novoNumber){
 		this.numeroDois = novoNumber;
 	}
+
+
 }
