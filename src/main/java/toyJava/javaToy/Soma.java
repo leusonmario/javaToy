@@ -11,6 +11,8 @@ public  class  Soma {
 		this.numeroDois = 0;
 	}
 
+//coment
+
 	public int getSoma(){
 		return numeroUm + numeroDois;
 	}
