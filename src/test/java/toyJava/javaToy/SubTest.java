@@ -25,4 +25,12 @@ public class SubTest {
 		sub.setNumeroUm(2);
 		assertEquals(2, sub.getSub());
 	}
+
+	@Test
+	public void testaSubComTwoSets(){
+		Subtracao sub = new Subtracao();
+		sub.setNumeroUm(2);
+		sub.setNumeroUm(3);
+		assertEquals(3, sub.getSub());
+	}
 }
