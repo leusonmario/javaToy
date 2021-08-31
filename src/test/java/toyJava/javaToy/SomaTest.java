@@ -33,4 +33,12 @@ public class SomaTest {
 		assertEquals("error in Soma", 8, soma.getSoma());
 	}
 
+	@Test
+	public void testSomaComSet() {
+		soma.setNumeroUm(8);
+		System.out.println("Esse foi quarto "+sdf.format(cal.getTime()));
+		assertEquals("error in Soma", 8, soma.getSoma());
+	}
+
+
 }
